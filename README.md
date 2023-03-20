@@ -20,4 +20,4 @@ Cohere AI, HTML, CSS, Javascript, Velo Wix editor, MongoDB
 As a team, we want to improve the chrome extension by changing the UI, adding more functionality, and adding it to the google store. 
 
 ## Created By
-Kaushik Sannidhi
+Kaushik Sannidhi (Hackathon team on devpost)
