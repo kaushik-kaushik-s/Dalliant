@@ -19,5 +19,8 @@ Cohere AI, HTML, CSS, Javascript, Velo Wix editor, MongoDB
 ## What's next for Code Blooded's Dalliant Chrome Extension 
 As a team, we want to improve the chrome extension by changing the UI, adding more functionality, and adding it to the google store. 
 
+## Website
+coming soon
+
 ## Created By
 Kaushik Sannidhi (Hackathon team on devpost)
