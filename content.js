@@ -1,5 +1,5 @@
 const hereco = async (url) => {
-    const cohereApiKey = 'key_here';//add ur cohere api key here
+    const cohereApiKey = 'key_here'; //ur cohere api key(I will provide one for the public later)
     const cohereEndpointUrl = 'https://api.cohere.ai/classify';
 
     const cohereReq = {
@@ -22,9 +22,41 @@ const hereco = async (url) => {
     return responseBody.classifications[0].prediction;
 };
 
-const blockedGenres = ["Shopping"];
+const maxEntertainmentTime = (parseInt(enth) * 60) + parseInt(entm);
+const maxShoppingTime = (parseInt(shh) * 60) + parseInt(shm);
+const maxEducationTime = (parseInt(edh) * 60) + parseInt(edm);
+const maxNewsTime = (parseInt(neh) * 60) + parseInt(nem);
+
+const startTime = Date.now();
+
+const getTimeSpent = (startTime) => {
+    const currentTime = Date.now();
+    return Math.floor((currentTime - startTime) / 60000);
+};
+
+const blockedGenres = [];
 
 window.addEventListener('load', async () => {
+    const timeSpentOnEntertainment = getTimeSpent(startTime);
+    if (timeSpentOnEntertainment >= maxEntertainmentTime) {
+        blockedGenres.push("Entertainment");
+    }
+
+    const timeSpentOnShopping = getTimeSpent(startTime);
+    if (timeSpentOnShopping >= maxShoppingTime) {
+        blockedGenres.push("Shopping");
+    }
+
+    const timeSpentOnEducation = getTimeSpent(startTime);
+    if (timeSpentOnEducation >= maxEducationTime) {
+        blockedGenres.push("Education");
+    }
+
+    const timeSpentOnNews = getTimeSpent(startTime);
+    if (timeSpentOnNews >= maxNewsTime) {
+        blockedGenres.push("News");
+    }
+
     const url = window.location.href;
     const genre = await hereco(url);
     if (blockedGenres.includes(genre)) {
