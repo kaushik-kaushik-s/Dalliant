@@ -1,7 +1,7 @@
 # Website:
 https://kaushiksannidhi.wixsite.com/dalliant
 
-## Timeline(can change):
+# Timeline(can change):
 ### April 15 ---Dalliant 1.1: Add calandar 
 ### April 20 --- Dalliant 1.2: improvments to ui, more efficent code 
 ### April 29 --- Full Dalliant Project will be avaliable open source, with a proper api key. 
@@ -16,5 +16,5 @@ I created this google extension to help many others with a serious problem. Many
 Dalliant, the google extension, is a time management tool to keep the user on task. The user can then limit the time spent on each genre. The preferences are saved to the user's account, which could be created on our Wix website. 
 
 
-## Created By
+# Created By
 Kaushik Sannidhi 
