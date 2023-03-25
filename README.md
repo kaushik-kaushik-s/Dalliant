@@ -16,7 +16,7 @@ We are proud of learning how to use new services and coding languages while maki
 ## What we learned
 Cohere AI, HTML, CSS, Javascript, Velo Wix editor, MongoDB
 
-## What's next for Code Blooded's Dalliant Chrome Extension 
+## What's next for Dalliant
 As a team, we want to improve the chrome extension by changing the UI, adding more functionality, and adding it to the google store. 
 
 ## Website
