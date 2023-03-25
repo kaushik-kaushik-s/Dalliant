@@ -1,5 +1,5 @@
 const hereco = async (url) => {
-    const cohereApiKey = 'key_here'; //ur cohere api key(I will provide one for the public later)
+    const cohereApiKey = 'uOojAENFsI7Pr6AzK1OP0j8xLPgGR8x0k2yIBhxR';
     const cohereEndpointUrl = 'https://api.cohere.ai/classify';
 
     const cohereReq = {
@@ -22,10 +22,10 @@ const hereco = async (url) => {
     return responseBody.classifications[0].prediction;
 };
 
-const maxEntertainmentTime = (parseInt(enth) * 60) + parseInt(entm);
-const maxShoppingTime = (parseInt(shh) * 60) + parseInt(shm);
-const maxEducationTime = (parseInt(edh) * 60) + parseInt(edm);
-const maxNewsTime = (parseInt(neh) * 60) + parseInt(nem);
+const maxEntertainmentTime = (parseInt(ent_h) * 60) + parseInt(ent_m);
+const maxShoppingTime = (parseInt(sh_h) * 60) + parseInt(sh_m);
+const maxEducationTime = (parseInt(ed_h) * 60) + parseInt(ed_m);
+const maxNewsTime = (parseInt(ne_h) * 60) + parseInt(ne_m);
 
 const startTime = Date.now();
 
