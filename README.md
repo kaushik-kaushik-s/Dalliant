@@ -10,7 +10,7 @@ https://kaushiksannidhi.wixsite.com/dalliant
 ### Nov 20 --- Dalliant will be avaliable on the google chrome store. 
 
 # Inspiration
-I created this google extension to help many others with a serious problem. Many people that we know have trouble managing their time and limiting themselves to certain websites. This motivated us to create Dalliant. 
+I created this google extension to help many others with a serious problem. Many people that we know have trouble managing their time and limiting themselves to certain websites. This motivated me to create Dalliant. 
 
 # What it does
 Dalliant, the google extension, is a time management tool to keep the user on task. The user can then limit the time spent on each genre. The preferences are saved to the user's account, which could be created on our Wix website. 
