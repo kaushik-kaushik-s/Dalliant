@@ -1,7 +1,7 @@
 # Website:
 https://kaushiksannidhi.wixsite.com/dalliant
 
-# Timeline(can change):
+# Timeline(can change) 2024:
 ### April 15 ---Dalliant 1.1: Add calandar 
 ### April 20 --- Dalliant 1.2: improvments to ui, more efficent code 
 ### May 1 --- Full Dalliant Project will be avaliable open source, with a proper api key. 
