@@ -18,3 +18,6 @@ Dalliant, the google extension, is a time management tool to keep the user on ta
 
 # Created By
 Kaushik Sannidhi 
+
+
+*Api key must be provided inorder for google extension to work. Will get errors without proper api key.
